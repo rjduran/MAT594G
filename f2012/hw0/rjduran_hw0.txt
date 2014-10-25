@@ -1,0 +1,5 @@
+Persuading Visual Attention through Geometry, Youngmin Kim et al. 
+IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS, VOL. 14 NO. 4, JULY/AUGUST 2008
+http://www.cs.umd.edu/gvil/papers/kim_TVCG08.pdf
+
+I chose this paper to explore due to my interest in saliency of objects (pixels, voxels) in a larger digital or physical context. There seems to be a interesting idea embedded in the malleability of our perception through being able to manipulate digital and physical geometry.

@@ -1,0 +1,31 @@
+## Pixie 2.2.6
+## Generated Thu Nov  5 15:55:21 2009
+
+Display "spike.tif" "file" "rgb" 
+Hider "hidden"  "jitter" [0 ] 
+PixelSamples 4 4
+PixelFilter "catmull-rom" 3 3
+Projection "perspective"  "fov" [12.5 ] 
+Option "limits" "eyesplits" [10]
+Translate 0 0 10
+Rotate -8 1 0 0
+Format 640 480 1
+WorldBegin
+TransformBegin
+LightSource "spotlight" 1  "intensity" [80 ]  "from" [3 10 -1 ]  "lightcolor" [1 1 1 ] 
+TransformBegin
+Rotate 45 0 1 0
+Rotate 45 1 0 0
+Color [1 1 1]
+Surface "plastic" 
+Displacement "spike"
+ShadingRate 0.25
+Attribute "displacementbound" "sphere" [1]
+Sphere 1 -1 1 360 
+TransformEnd
+TransformEnd
+Color [0.1 0.1 0.1]
+Surface "constant" 
+Scale 1000 1000 1000
+Sphere 1 -1 1 360 
+WorldEnd
